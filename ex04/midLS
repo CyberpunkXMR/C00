@@ -1,0 +1,2 @@
+ls -lAp --time-style=long-iso | grep -v "^\." | grep -v "^\(total\|d\)" | sort -k6,7
+
